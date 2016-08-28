@@ -80,7 +80,7 @@ namespace Sign_out
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(3)))), ((int)(((byte)(65)))));
             this.panel1.Controls.Add(this.countdown_label);
             this.panel1.Controls.Add(this.cancel_btn);
             this.panel1.Controls.Add(this.sign_out_btn);
