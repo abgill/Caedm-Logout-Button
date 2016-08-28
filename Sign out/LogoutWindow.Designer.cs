@@ -35,6 +35,8 @@ namespace Sign_out
             this.sign_out_btn = new System.Windows.Forms.Button();
             this.cancel_btn = new System.Windows.Forms.Button();
             this.countdown_label = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // sign_out_btn
@@ -43,7 +45,7 @@ namespace Sign_out
             this.sign_out_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sign_out_btn.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sign_out_btn.ForeColor = System.Drawing.SystemColors.Control;
-            this.sign_out_btn.Location = new System.Drawing.Point(209, 167);
+            this.sign_out_btn.Location = new System.Drawing.Point(209, 93);
             this.sign_out_btn.Name = "sign_out_btn";
             this.sign_out_btn.Size = new System.Drawing.Size(97, 49);
             this.sign_out_btn.TabIndex = 0;
@@ -56,7 +58,7 @@ namespace Sign_out
             this.cancel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancel_btn.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancel_btn.ForeColor = System.Drawing.SystemColors.Control;
-            this.cancel_btn.Location = new System.Drawing.Point(383, 167);
+            this.cancel_btn.Location = new System.Drawing.Point(363, 93);
             this.cancel_btn.Name = "cancel_btn";
             this.cancel_btn.Size = new System.Drawing.Size(97, 49);
             this.cancel_btn.TabIndex = 1;
@@ -69,34 +71,46 @@ namespace Sign_out
             this.countdown_label.AutoSize = true;
             this.countdown_label.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countdown_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.countdown_label.Location = new System.Drawing.Point(181, 102);
+            this.countdown_label.Location = new System.Drawing.Point(3, 18);
             this.countdown_label.Name = "countdown_label";
             this.countdown_label.Size = new System.Drawing.Size(377, 24);
             this.countdown_label.TabIndex = 2;
             this.countdown_label.Text = "Signing you out of Windows in 10 seconds...";
             // 
-            // Form1
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel1.Controls.Add(this.countdown_label);
+            this.panel1.Controls.Add(this.cancel_btn);
+            this.panel1.Controls.Add(this.sign_out_btn);
+            this.panel1.Location = new System.Drawing.Point(170, 111);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(542, 158);
+            this.panel1.TabIndex = 3;
+            // 
+            // LogoutWindow
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(700, 250);
-            this.Controls.Add(this.countdown_label);
-            this.Controls.Add(this.cancel_btn);
-            this.Controls.Add(this.sign_out_btn);
+            this.BackColor = System.Drawing.SystemColors.MenuText;
+            this.ClientSize = new System.Drawing.Size(916, 363);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "LogoutWindow";
+            this.Opacity = 0.95D;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "CAEDM Logout";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -105,6 +119,7 @@ namespace Sign_out
         private System.Windows.Forms.Button sign_out_btn;
         private System.Windows.Forms.Button cancel_btn;
         private Label countdown_label;
+        private Panel panel1;
     }
 }
 
