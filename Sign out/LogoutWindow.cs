@@ -14,10 +14,10 @@ using System.Windows;
 
 namespace Sign_out
 {
-    public partial class Form1 : Form
+    public partial class LogoutWindow : Form
     {
         int time_left = 10;
-        public Form1()
+        public LogoutWindow()
         {
             InitializeComponent();
         }
