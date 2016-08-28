@@ -2,7 +2,7 @@
 
 namespace Sign_out
 {
-    partial class Form1
+    partial class LogoutWindow
     {
         /// <summary>
         /// Required designer variable.
