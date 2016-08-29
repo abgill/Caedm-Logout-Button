@@ -24,7 +24,7 @@ namespace Sign_out
                     return;
                 }
                 else if (argument == "/p"){
-                    MessageBox.Show("This screensaver does not support previews");
+                    //MessageBox.Show("This screensaver does not support previews");
                     return;
                 }
                 else if (argument == "/s")
