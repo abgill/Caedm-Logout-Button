@@ -17,8 +17,9 @@ namespace Sign_out
     public partial class LogoutWindow : Form
     {
         int time_left = 10;
-        public LogoutWindow()
+        public LogoutWindow(int time)
         {
+            time_left = time;
             InitializeComponent();
         }
 
