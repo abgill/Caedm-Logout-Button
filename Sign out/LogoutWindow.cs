@@ -47,7 +47,7 @@ namespace Sign_out
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
 
-            countdown_label.Text = ("Logging out in " + time_left.ToString());
+            countdown_label.Text = ("Signing you out of Windows in " + time_left.ToString() + " seconds");
             //Starts timer
             var timer = new Timer { Interval = 1000 };
             timer.Tick += (o, args) =>
@@ -58,7 +58,7 @@ namespace Sign_out
                     System.Windows.Forms.Application.Exit();
                 }
                 time_left--;
-                countdown_label.Text = ("Logging out in " + time_left.ToString());
+                countdown_label.Text = ("Signing you out of Windows in " + time_left.ToString() + " seconds");
             };
             timer.Start();
         }
