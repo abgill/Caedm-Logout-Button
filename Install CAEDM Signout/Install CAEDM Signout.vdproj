@@ -257,7 +257,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Install CAEDM Signout"
         "ProductCode" = "8:{F47CF77F-2F09-4215-AC2E-F132885FC8BD}"
-        "PackageCode" = "8:{BE3AD697-5FF2-48C5-8920-17A437E6BC04}"
+        "PackageCode" = "8:{93060EAE-63AB-495A-963D-81053EC07DF6}"
         "UpgradeCode" = "8:{80EF75BE-B5E9-40EA-B739-8A793EFCDD0B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -388,7 +388,7 @@
             "Target" = "8:_CB9D9CC13A204544B4D2B98F9F7863BF"
             "Folder" = "8:_94A87642003A4487B7565A4F2CBD5B2A"
             "WorkingFolder" = "8:_822C5F768BA54414917150B4892AF2EB"
-            "Icon" = "8:"
+            "Icon" = "8:_85D02B2A7113445B97D5790D64326D06"
             "Feature" = "8:"
             }
         }
