@@ -28,7 +28,7 @@ namespace Sign_out
 
         public static void WindowsLogOff()
         {
-            ExitWindowsEx(0, 0);
+            ExitWindowsEx(4, 0);
             System.Windows.Forms.Application.Exit();
         }
 
