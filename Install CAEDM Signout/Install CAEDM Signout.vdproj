@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_513E296062C742C38A89B73B0EFE2FFF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_711A94200F5042EDA553BBC4BD33C7CE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -138,6 +144,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_513E296062C742C38A89B73B0EFE2FFF"
+            {
+            "SourcePath" = "8:..\\Sign out\\Assets\\Logoff.ico"
+            "TargetName" = "8:Logoff.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_822C5F768BA54414917150B4892AF2EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_711A94200F5042EDA553BBC4BD33C7CE"
             {
             "AssemblyRegister" = "3:1"
@@ -257,7 +283,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Install CAEDM Signout"
         "ProductCode" = "8:{F47CF77F-2F09-4215-AC2E-F132885FC8BD}"
-        "PackageCode" = "8:{3FD2C7EB-FB4A-4319-AE62-20F475CA87CB}"
+        "PackageCode" = "8:{8DDF23F9-2B6C-4232-B18A-7670DCA4DF37}"
         "UpgradeCode" = "8:{80EF75BE-B5E9-40EA-B739-8A793EFCDD0B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -388,7 +414,7 @@
             "Target" = "8:_CB9D9CC13A204544B4D2B98F9F7863BF"
             "Folder" = "8:_94A87642003A4487B7565A4F2CBD5B2A"
             "WorkingFolder" = "8:_822C5F768BA54414917150B4892AF2EB"
-            "Icon" = "8:_85D02B2A7113445B97D5790D64326D06"
+            "Icon" = "8:_513E296062C742C38A89B73B0EFE2FFF"
             "Feature" = "8:"
             }
         }
